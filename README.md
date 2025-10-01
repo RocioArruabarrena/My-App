@@ -17,7 +17,7 @@ Instalar dependencias=
 
 npm install
 
-⚠️ Importante: instala librerías nativas con `expo install react-native-screens react-native-safe-area-context` para asegurar compatibilidad con el SDK.
+⚠️ Importante: instala librerías nativas con `expo install react-native-screens react-native-safe-area-context  react-navigation/native react-navigation/native-stack`para asegurar compatibilidad con el SDK.
 
 
 
