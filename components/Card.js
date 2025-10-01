@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
-import { IMAGE_BASE_URL } from "../services/tmdbService";
+import { IMAGE_BASE_URL } from "../services/tmdb-Service";
 
 export default function MovieCard({ movie, onPress }) {
   return (

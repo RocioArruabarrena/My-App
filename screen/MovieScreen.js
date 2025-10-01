@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { View, ActivityIndicator, StyleSheet } from "react-native";
-import { getMovieDetails } from "../services/tmdbService";
-import MovieCard from "../components/MovieCard";
+import { getMovieDetails } from "../services/tmdb-Service";
+import MovieCard from "../components/Card";
 
 export default function HomeScreen({ navigation }) {
   const [movie, setMovie] = useState(null);
