@@ -1,31 +1,29 @@
 {
   "expo": {
-    "name": "Películas TMDb",
-    "slug": "peliculas-tmdb",
+    "name": "Peliculas",
+    "slug": "Peliculas",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "dark",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#141414"
+      "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.peliculastmdb.app"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#141414"
+        "backgroundColor": "#ffffff"
       },
-      "package": "com.peliculastmdb.app"
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "sdkVersion": "54.0.0"
+    }
   }
 }

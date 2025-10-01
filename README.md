@@ -17,8 +17,6 @@ Instalar dependencias=
 
 npm install
 
-⚠️ Importante: instala librerías nativas con `expo install react-native-screens react-native-safe-area-context  react-navigation/native react-navigation/native-stack`para asegurar compatibilidad con el SDK.
-
 
 
 Iniciar la aplicación=
@@ -42,6 +40,8 @@ Estructura del proyecto:
 
 My-App/
 │
+├── components/
+│   ├── Card.js
 │
 ├── screens/
 │   ├── MovieScreen.js
@@ -52,6 +52,7 @@ My-App/
 │
 ├── App.js
 ├── app.json
+├── index.js
 ├── package-lock.json
 ├── package.json
 └── README.md
