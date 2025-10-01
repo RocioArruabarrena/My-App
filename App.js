@@ -9,7 +9,6 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="Movies"
         screenOptions={{
           headerStyle: {
             backgroundColor: "#141414",
@@ -18,7 +17,6 @@ export default function App() {
           headerTitleStyle: {
             fontWeight: "bold",
           },
-          headerShown: false,
         }}
       >
         <Stack.Screen name="Movies" component={MoviesScreen} options={{ title: "Películas Populares" }} />
@@ -27,3 +25,4 @@ export default function App() {
     </NavigationContainer>
   )
 }
+

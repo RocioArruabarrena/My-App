@@ -42,16 +42,13 @@ Estructura del proyecto:
 
 My-App/
 │
-├── app/
-│   ├── _layout.js
-│   └── page.js
 │
 ├── screens/
 │   ├── MovieScreen.js
 │   └── MovieDetailScreen.js
 │
 ├── services/
-│   └── tmdbService.js
+│   └── tmdb-Service.js
 │
 ├── App.js
 ├── app.json
