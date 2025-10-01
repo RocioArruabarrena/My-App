@@ -17,6 +17,9 @@ Instalar dependencias=
 
 npm install
 
+⚠️ Importante: instala librerías nativas con `expo install react-native-screens react-native-safe-area-context` para asegurar compatibilidad con el SDK.
+
+
 
 Iniciar la aplicación=
 
